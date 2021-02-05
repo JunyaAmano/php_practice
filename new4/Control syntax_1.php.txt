@@ -1,0 +1,22 @@
+<? php 
+  $ n = 12345;
+  $ amari = $ n % 2; ?> 
+<! DOCTYPE html   PUBLIC "-//W 3 C// DTD XHTML 1. 0 Transitional// EN" "http:// www. w 3. org/ TR/ xhtml 1/ DTD/ xhtml 1-transitional. dtd">
+< html xmlns =" http:// www. w 3. org/ 1999/ xhtml" xml: lang =" ja" lang =" ja">
+  < head > 
+    < meta http-equiv =" Content-Type" content =" text/ html; charset = UTF-8" /> 
+    < title > sample page </ title > 
+  </ head >
+  < body > 
+    < h 1 > Hello PHP!</ h 1 > 
+    < div > 
+      <? php 
+        if ($amari == 0)
+          { echo "{$n} は、 偶数 です。";
+          } else {
+            echo "{$n}は、奇数です。";
+          }
+      ?>
+    </dvi>
+  </body>
+</html>
